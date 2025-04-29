@@ -1,0 +1,12 @@
+{
+    "name": "lphp/framework",
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core/",
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "php": "^7.4"
+    }
+}
