@@ -9,6 +9,8 @@ class Router {
         $this->routes['GET'][$uri] = $controllerAction;
     }
 
+
+
     public function resolve($uri, $method) {
         if (isset($this->routes[$method][$uri])) {
             return $this->routes[$method][$uri];

@@ -2,8 +2,8 @@
 
 namespace App\Controllers;
 
-class HomeController extends Controller {
+class HomeController extends BaseController {
     public function index() {
-        return $this->view('home/index', ['name' => 'LPHP']);
+        return $this->view('home/index', ['name' => 'LPHP','page'=>'Home']);
     }
 }
